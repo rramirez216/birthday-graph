@@ -25,7 +25,7 @@ function App() {
     <div>
       <form action="" onSubmit={(event) => handleSubmit(event)}>
         <label htmlFor="name">Name:</label>
-        <input type="text" name="name" id="name" value={name} onChange={(event) => handleName(event)} />
+        <input type="text" name="name" id="name" value={name} onChange={(event) => handleName(event)} required />
         <label htmlFor="birthday">Birthday</label>
         <input type="date" name="birthday" id="birthday" value={birthday} onChange={(event) => handleBirthday(event)} />
         <button type="submit">add</button>
