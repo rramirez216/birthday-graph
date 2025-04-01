@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Input() {
+function Input({ label, }) {
   return <>
     <label></label>
     <input type="text" />
